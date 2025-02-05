@@ -27,7 +27,7 @@ class TestCalc (unittest.TestCase):
                 self.assertEqual (800, calc(2,400))
         
         def test_sample7 (self):
-                self.assertEqual (999, calc(1,999))
+                self.assertEqual (880, calc(88,10))
 
         #境界値とのテスト 追加   
         def test_sample8 (self):
